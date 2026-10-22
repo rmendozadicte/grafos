@@ -26,7 +26,7 @@ class RedSocial{
         //this.conexiones.get(usuario1).push(usuario2);
         this.conexiones.get(usuario2).push(usuario1);
     }
-    []
+
     // Imprime la estructura de la red social
     imprimirRed(){
         console.log("**** RED SOCIAL ****");

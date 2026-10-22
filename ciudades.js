@@ -18,7 +18,7 @@ class Rutas{
         this.agregarCiudad(destino);
 
         // Lima -> [ Trujillo, 560Km ]
-        this.ciudades.get(origen).push({destino: destino, km: distancia});
+        this.ciudades.get(origen).push({destino: destino, lineas: distancia});
         // Trujillo -> [destino: Lima, km: 560Km]
         this.ciudades.get(destino).push({destino: origen, km: distancia});
     }
